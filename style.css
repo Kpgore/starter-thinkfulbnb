@@ -185,8 +185,8 @@ footer p {
 
   form {
     /* display: flex;
-    flex-wrap: wrap; */
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row; */
     justify-content: space-between;
     font-size: 50%;
   }
@@ -261,7 +261,7 @@ footer p {
 
 @media all and (min-width: 600px) {
   form {
-
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     font-size: 100%;
